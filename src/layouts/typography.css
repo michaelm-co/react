@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'mk-xlight';
+    src: url('MarkW04-NarrowExtlight.eot');
+    src: url('MarkW04-NarrowExtlight.woff2') format('woff2'),
+            url('MarkW04-NarrowExtlight.woff') format('woff'),
+            url('MarkW04-NarrowExtlight.ttf') format('truetype'),
+            url('MarkW04-NarrowExtlight.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'mk-light';
+    src: url('MarkW04-NarrowLight.eot');
+    src: url('MarkW04-NarrowLight.woff2') format('woff2'),
+            url('MarkW04-NarrowLight.woff') format('woff'),
+            url('MarkW04-NarrowLight.ttf') format('truetype'),
+            url('MarkW04-NarrowLight.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mk-book';
+    src: url('MarkW04-NarrowBook.eot');
+    src: url('MarkW04-NarrowBook.woff2') format('woff2'),
+         url('MarkW04-NarrowBook.woff') format('woff'),
+         url('MarkW04-NarrowBook.ttf') format('truetype'),
+         url('MarkW04-NarrowBook.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mk-medium';
+    src: url('MarkW04-NarrowMedium.eot');
+    src: url('MarkW04-NarrowMedium.woff2') format('woff2'),
+         url('MarkW04-NarrowMedium.woff') format('woff'),
+         url('MarkW04-NarrowMedium.ttf') format('truetype'),
+         url('MarkW04-NarrowMedium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mk-bold';
+    src: url('MarkW04-NarrowBold.eot');
+    src: url('MarkW04-NarrowBold.woff2') format('woff2'),
+         url('MarkW04-NarrowBold.woff') format('woff'),
+         url('MarkW04-NarrowBold.ttf') format('truetype'),
+         url('MarkW04-NarrowBold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "mk-xlight";
+    font-size: 72px;
+    line-height: 80px;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: -1px;
+}
+h2{
+    font-family: "mk-light";
+    font-size: 36px;
+    line-height: 44px;
+    color: #000;
+    font-weight: normal;
+    font-style: normal;
+}
+h3{
+    font-family: "mk-medium";
+}
+h4{
+    font-family: "mk-bold";
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #FCBC05;
+    font-weight: normal;
+    font-style: normal;
+}
+p.intro{
+    font-family: "mk-light";
+    font-size: 26px;
+    line-height: 34px;
+    color: #666;
+    font-weight: normal;
+    font-style: normal;
+}
+p, body{
+    font-family: "mk-book";
+    font-size: 18px;
+    line-height: 28px;
+    color:#222;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    font-family: "mk-book";
+    font-size: 18px;
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    line-height: 36px;
+    border-bottom: 1px solid #999;
+}
